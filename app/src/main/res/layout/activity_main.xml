@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+
+
+    <Button
+        android:id="@+id/getPDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Get Pdf"
+        android:onClick="btnClick"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="btnClick"
+        android:layout_marginBottom="20dp"
+        android:text="Upload"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/viewPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="btnClick"
+        android:layout_marginBottom="20dp"
+        android:text="View Pdf"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
